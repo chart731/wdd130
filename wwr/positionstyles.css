@@ -72,42 +72,44 @@
   /* Activity 3 styles */ 
   .content3 {
     /* This is the parent of the activity 3 boxes. */
-    display: grid;  
-    grid-column-gap: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 75px;
+
 
   }
   .red3 {
-    width: 210%; 
+    width: 675px; 
     height: 100px; 
     background-color: red; 
-    grid-row: 1;
+
   } 
   .green3 {
-    width: 210px; 
-    height: 155px; 
+    width: 300px; 
+    height: 200px; 
     background-color: green;
-    grid-row: 2;
+    grid-column: 1/2;
   } 
   .yellow3 {
-    width: 210px; 
-    height: 155px; 
+    width: 300px; 
+    height: 200px; 
     background-color: gold; 
-    grid-row: 2;
-    justify-self: right;
+    grid-column: 2/3;
+    margin-right: 275px;
     
   } 
   .blue3 {
-    width: 210%;
+    width: 675px;
     height: 100px; 
     background-color: blue; 
-    grid-row: 3;
+   
   } 
   /* Activity 4 styles */ 
   .content4 {
     /* This is the parent of the activity 4 boxes. */
     height: 400px;
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: 250px 250px;
   }
   .red4 {
     width: 250px; 
@@ -144,7 +146,7 @@
     height: 400px;
   }
   .red5 { 
-    width: 151%; 
+    width: 67.5%; 
     height: 100px; 
     background-color: red; 
   } 
@@ -156,13 +158,13 @@
   
   } 
   .yellow5 {
-    width: 151%; 
+    width: 67.5%; 
     height: 280px; 
     background-color: gold; 
   
   } 
   .blue5 {
-    width: 151%; 
+    width: 67.5%; 
     height: 100px; 
     background-color: blue; 
   } 
