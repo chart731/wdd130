@@ -232,6 +232,85 @@ main section img {
     margin-top: 100px;
 }
 
+/* css for child faq page */
+
+#faq-img {
+    width: 100%;
+}
+
+#faq-text {
+    text-align: center;
+    border-radius: 10px black;
+    padding: 50px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+    background-color: #A0C1B9;
+}
+#faq-title {
+    text-align: center;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 65px;
+    grid-row-gap: 65px;
+    
+}
+
+.q1 {
+    text-align: left;
+    padding: 10px;
+    margin-top: 50px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+.q2 {
+    text-align: left;
+    padding: 10px;
+    margin-top: 50px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+.q3 {
+    text-align: left;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+.q4 {
+    text-align: left;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+.q5 {
+    text-align: left;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+.q6 {
+    text-align: left;
+    padding: 10px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
