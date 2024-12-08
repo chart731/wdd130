@@ -190,3 +190,93 @@ footer p {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  /* Stitches and Patterns Css*/
+  
+  .stitches-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 0;
+    align-items: start;
+  }
+
+  .stitches-layout .cat1 {
+    grid-column: 1/2;
+  }
+
+  .stitches-layout .text-opening {
+    grid-column: 2/3;
+  }
+
+  .stitches-layout .block {
+    grid-column: 3/4;
+  }
+  
+  .stitches-layout .spacer-logo {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+
+  .stitches-layout .text1 {
+    grid-column: 1/2;
+  }
+
+  .stitches-layout .small-cat {
+    grid-column: 2/3;
+  }
+
+  .stitches-layout .text2 {
+    grid-column: 3/4;
+  }
+
+.cat1 img {
+    padding-left: 20px;
+    width: 85%;
+    height: auto;
+    border-radius: 8px;
+    grid-column: 1/2; 
+}
+
+.text-opening {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 2em;
+}
+
+.block img {
+    padding-left: 50px;
+    height: auto;
+    width: 80%;
+}
+
+.spacer-logo img {
+    width: 100%; 
+    height: 375px;
+    border-radius: 8px;
+}
+
+.text1 {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 2em;
+}
+
+.small-cat img {
+    padding-left: 90px;
+    width: 75%;
+}
+
+.text2 {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 2em;
+}
